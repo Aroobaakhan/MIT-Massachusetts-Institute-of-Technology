@@ -462,10 +462,12 @@ li span{
         padding-top: 50px;
         padding-left: 0px;
         display: block;
+        z-index: 2;
+        transition: right 0.5s;
     }
     .navhead a{
         color: red;
-        text-decoration: underline black;
+       
     }
     .navhead  ul li{
         padding-top: 40px;
