@@ -281,6 +281,7 @@
     }
     .imagesarea{
         height: 1470px;
+        width: auto;
     }
     .redimages img{
         width: 350px;
