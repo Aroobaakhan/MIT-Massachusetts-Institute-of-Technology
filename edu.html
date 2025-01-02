@@ -15,7 +15,7 @@
                  <h6>  Massachusetts Institute of  Technology</h6>
             </div>
             <div class="navhead border">
-                <ul>
+                <ul id="sidemenu">
                     <li> <a href="edu.html">Education</a></li>
                     <li><a href="res.html">Research</a></li>
                     <li><a href="inno.html">Innovation</a></li>
@@ -24,9 +24,10 @@
                     <li><a href="news.html">News</a></li>
                     <li><a href="alumni.html">Alumni</a></li>
                     <li><a href="about.html">About MIT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                     <button style="margin-right: -120px;"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </ul>
-                    
+                    <i class="fa-solid fa-bars" onclick="OpenMenu()"></i>
             </div>
         </div>
     </header>
@@ -280,9 +281,18 @@
                     </div>
         
     </div>
-    
-    
-    
     </main>
 </body>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function OpenMenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
 </html>
