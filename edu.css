@@ -280,16 +280,16 @@
         display: block;
     }
     .imagesarea{
-        height: 1470px;
+        height: 1500px;
         width: 500px;
     }
     .redimages img{
-        width: 350px;
-        height: 230px;
+        width: 400px;
+        height: 250px;
     }
     .redimage2 img{
-        width: 350px;
-        height: 230px;
+        width: 400px;
+        height: 250px;
     }
     .footerlogo{
         display: none;
