@@ -221,3 +221,97 @@
     color: black;
 }
 
+
+@media only screen and (max-width :600px){
+    .options{
+        margin-left: 20px;
+        margin-top: 120px;
+    }
+    .options a{
+        font-size: 20px;
+    }
+    .eduparagraph{
+        margin-left: 20px;
+    }
+    .eduparagraph p{
+        font-size: 30px;
+    }
+    .edupara2{
+        display: block;
+    }
+    .paravideo p{
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    .video video{
+        width: 420px;
+        height: 300px;
+    }
+    .video{
+        border: none;
+        margin-left: 20px;
+    }
+    .sinlgdiv{
+        margin-left: 20px;
+        width: 400px;
+    }
+    .schoolpara{
+        margin-left: 20px;
+        width: 420px;
+    }
+    .schoolparahead{
+        display: block;
+    }
+    .schoolheading{
+        margin-left: 20px;
+    }
+    .list{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .redimages{
+        display: block;
+    }
+    .redimage2{
+        display: block;
+    }
+    .whitefooter{
+        margin-top: 50px;
+        display: block;
+    }
+    .imagesarea{
+        height: 1470px;
+    }
+    .redimages img{
+        width: 350px;
+        height: 230px;
+    }
+    .redimage2 img{
+        width: 350px;
+        height: 230px;
+    }
+    .footerlogo{
+        display: none;
+    }
+    .mit{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .button{
+        margin-left: 150px;
+        padding: 4px;
+    }
+    .mit a{
+        font-size: 18px;
+    }
+    .mit p{
+        font-size: 18px;
+    }
+    .menu{
+        font-size: 18px;
+    }
+    .text{
+        font-size: 17px;
+    }
+}
+
